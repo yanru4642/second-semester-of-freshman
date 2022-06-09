@@ -3,7 +3,7 @@
 using namespace std;
 
 bool Administrator::Login(string username, string password) {
-	if (validate(username,password)==1)	{
+	if (validate(username,password) == 2)	{
 		return true;
 	}
 	return false;
